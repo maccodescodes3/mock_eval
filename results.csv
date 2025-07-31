@@ -1,0 +1,13 @@
+input,expected,actual,score
+Explain binary search in simple terms.,Binary search splits a sorted list into halves to find a target efficiently.,"Binary search is a searching algorithm that works by repeatedly dividing in half the portion of the data set that could contain the item, until you've narrowed down the possible locations to just one.
+
+Here's a simple way to understand it:
+
+1. First, you need to have your data set in a sorted order, either from smallest to largest or largest to smallest.
+2. You pick the middle element of the data set and compare it to the value you're searching for.
+3. If the middle element is the one you're searching for, hooray, you found it! If not, you check if the value you're searching for is less than or greater than the middle element.
+4. If the value is less than the middle element, you only look at the part of the data set that is less than the middle element (the left half). If the value is greater than the middle element, you only look at the part of the data set that is greater than the middle element (the right half).
+5. You repeat steps 2-4 on the new, smaller data set until you either find the value or exhaust the data set (i.e., the value is not in the data set).
+
+By cutting the data set in half each time, binary search can quickly search through even very large data sets.",5
+What is the time complexity of bubble sort?,Bubble sort has time complexity O(n^2) in the worst and average case.,"The time complexity of Bubble Sort is O(n^2), where n is the number of items being sorted. This is because, in the worst case, the algorithm may need to iterate through the list and compare (and possibly swap) each pair of adjacent items, which results in quadratic time complexity. Even in the best case (when the input list is already sorted), the time complexity of Bubble Sort remains O(n^2) since the algorithm still needs to iterate through the list to confirm that it is sorted.",5

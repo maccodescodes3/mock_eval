@@ -1,0 +1,10 @@
+[
+  {
+    "input": "Explain binary search in simple terms.",
+    "ideal": "Binary search splits a sorted list into halves to find a target efficiently."
+  },
+  {
+    "input": "What is the time complexity of bubble sort?",
+    "ideal": "Bubble sort has time complexity O(n^2) in the worst and average case."
+  }
+]

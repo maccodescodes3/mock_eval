@@ -1,0 +1,10 @@
+[
+  {
+    "prompt": "Explain binary search in simple terms.",
+    "expected": "Binary search is a fast way to find an item in a sorted list..."
+  },
+  {
+    "prompt": "What is the time complexity of bubble sort?",
+    "expected": "The time complexity of bubble sort is O(n^2)..."
+  }
+]
