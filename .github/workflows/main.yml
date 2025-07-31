@@ -29,8 +29,8 @@ jobs:
         run: python test_example.py
 
       - name: Upload Results CSV
-        uses: actions/upload-artifact@3fe6e2a2e29d8c1e68e6d324a36401fcf0a6a145
-
+        uses: actions/upload-artifact@v4
         with:
           name: eval-results
           path: results.csv
+
